@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Direct comit from Visual Studio to GitHub
+using System;
 
 namespace Test
 {
@@ -6,7 +7,9 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var i = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(i);
         }
     }
 }
